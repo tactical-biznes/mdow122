@@ -1,0 +1,257 @@
+<!-- saved from url=(0048)https://xobywatel-tactical.vercel.app/card.html? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsInRoZW1lX2NvbG9yIjoiI2Y1ZjZmYiIsImJhY2tncm91bmRfY29sb3IiOiIjZjVmNmZiIiwiZGlzcGxheSI6InN0YW5kYWxvbmUifQ==">
+    <title>mObywatel</title>
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="./card_files/main.css">
+    <link rel="stylesheet" href="./card_files/card.css">
+    <link rel="icon" type="image/x-icon" href="https://xobywatel-tactical.vercel.app/assets/app/images/logo_large.png">
+    <link rel="apple-touch-icon" href="https://xobywatel-tactical.vercel.app/assets/app/images/logo_large.png">
+    <link rel="shortcut icon" href="https://xobywatel-tactical.vercel.app/assets/app/images/logo_large.png">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+    <div class="top_grid_fixed">
+        <div class="action_grid_fixed">
+            <img src="./card_files/back_blue.png" class="back_img_fixed">
+            <p onclick="sendTo(&#39;home&#39;)" class="back_text_fixed">Wróć</p>
+        </div>
+        <p class="title_text_fixed">mDowód</p>
+        <img src="./card_files/help.png" class="help_img_fixed">
+    </div>
+    <div class="bottom_bar">
+        <div class="bottom_bar_grid">
+            <div class="bottom_element_grid" send="home">
+                <div class="bottom_element_image home"></div>
+                <p class="bottom_element_text">Pulpit</p>
+            </div>
+            <div class="bottom_element_grid" send="documents">
+                <div class="bottom_element_image documents_open"></div>
+                <p class="bottom_element_text open">Dokumenty</p>
+            </div>
+            <div class="bottom_element_grid" send="services">
+                <div class="bottom_element_image services"></div>
+                <p class="bottom_element_text">Usługi</p>
+            </div>
+            <div class="bottom_element_grid" send="qr">
+                <div class="bottom_element_image qr"></div>
+                <p class="bottom_element_text">Kod QR</p>
+            </div>
+            <div class="bottom_element_grid" send="more">
+                <div class="bottom_element_image more"></div>
+                <p class="bottom_element_text">Więcej</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="time_text" id="time">Czas: 22:39:44 24.10.2025</p>
+        <div class="id_image_data">
+            <img draggable="false" class="id_image" src="./card_files/plate.png">
+            <div class="inset">
+    
+            </div>
+            <!-- ZAMIANA: wstawiamy link example.com w miejsce zdjęcia osoby -->
+            <a href="./card_files/dowud.webp" target="_blank">
+                <img src="./card_files/dowud.webp" class="id_own_image" alt="Zdjęcie osoby" draggable="false" style="filter: grayscale(100%); background-image: url(&quot;data:text/plain;base64,VGhlIHBhZ2UgY291bGQgbm90IGJlIGZvdW5kCgpOT1RfRk9VTkQKCmZyYTE6OjlzY3d0LTE3NjEzMzgzNjkzNjQtZTQ4YmQyOTBmMWMzCg==&quot;);">
+            </a>
+            <img draggable="false" src="./card_files/flag.webp" class="flag_video">
+            <img draggable="false" src="./card_files/eagle.gif" class="eagle_video">
+            <p class="eagle_text">Rzeczpospolita<br>Polska</p>
+            <div class="id_data_grid">
+                <div class="data_holder">
+                    <p class="data_title firstname" id="name">Mateusz</p>
+                    <p class="data_value">Imię (imiona)</p>
+                </div>
+                <div class="data_holder">
+                    <p class="data_title surname" id="surname"> Zieliński</p>
+                    <p class="data_value">Nazwisko</p>
+                </div>
+                <div class="data_holder">
+                    <p class="data_title" id="nationality">POLSKIE</p>
+                    <p class="data_value">Obywatelstwo</p>
+                </div>
+                <div class="data_holder">
+                    <p class="data_title" id="birthday">07.11.2005</p>
+                    <p class="data_value">Data urodzenia</p>
+                </div>
+                <div class="data_holder">
+                    <p class="data_title" id="pesel">07211712323</p>
+                    <p class="data_value">Numer PESEL</p>
+                </div>
+            </div>
+        </div>
+        <div class="id_bottom">
+            <div class="bottom_grid">
+                <img class="bottom_image" src="./card_files/valid.png">
+                <p class="bottom_text" style="color: #317C26; font-weight: 600; font-size: 16px; margin-left: 20px;">Dokument ważny</p>
+            </div>
+        </div>
+        <div class="under_container">
+            <div class="under_grid">
+                <div class="under_icon" onclick="sendTo(&#39;scan&#39;, &#39;card&#39;)">
+                    <div class="under_image_circle">
+                        <img class="under_image" src="./card_files/confirm.png">
+                    </div>
+                    <p class="under_text">Potwierdź swoje dane</p>
+                </div>
+                <div class="under_icon" onclick="sendTo(&#39;document&#39;)">
+                    <div class="under_image_circle">
+                        <img class="under_image" src="./card_files/card.png">
+                    </div>
+                    <p class="under_text">Dane dowodu osobistego</p>
+                </div>
+                <div class="under_icon" onclick="sendTo(&#39;pesel&#39;)">
+                    <div class="under_image_circle">
+                        <img class="under_image" src="./card_files/lock.png">
+                    </div>
+                    <p class="under_text">Zastrzeż PESEL</p>
+                </div>
+                <div class="under_icon" onclick="sendTo(&#39;shortcuts&#39;)">
+                    <div class="under_image_circle">
+                        <img class="under_image" src="./card_files/more.png">
+                    </div>
+                    <p class="under_text">Pozostałe skróty</p>
+                </div>
+            </div>
+        </div>
+        <div class="confirm_info">
+            <div class="confirm_box">
+                <p class="box_top">Seria i numer</p>
+                <p class="box_value box_highlight" id="seriesAndNumber">PCR 154316</p>
+                <button class="main_button">Kopiuj</button>
+            </div>
+            <div class="confirm_box">
+                <p class="box_top">Termin ważności</p>
+                <p class="box_value" id="expiryDate">08.01.2035</p>
+            </div>
+            <div class="confirm_box">
+                <p class="box_top">Data wydania</p>
+                <p class="box_value" id="givenDate">07.01.2025</p>
+            </div>
+            <div class="confirm_box">
+                <p class="box_top">Imię ojca</p>
+                <p class="box_value" id="fathersName">ARKADIUSZ</p>
+            </div>
+            <div class="confirm_box" style="border: none;">
+                <p class="box_top">Imię matki</p>
+                <p class="box_value" id="mothersName">MARZENA</p>
+            </div>
+        </div>
+        <div class="other_grid">
+            <div class="bottom_holder info_holder">
+                <div class="bottom_grid">
+                    <p class="bottom_text" style="color: #1f2125; margin-left: 0px;">Twoje dodatkowe dane</p>
+                </div>
+                <img class="action_arrow" src="./card_files/right_arrow.png">
+                <div class="additional_holder">
+                    <div class="additional_grid">
+                        <p class="additional_title">Nazwisko rodowe</p>
+                        <p class="additional_subtitle" id="familyName">TRZASKOWSKI</p>
+                    </div>
+                    <div class="additional_grid">
+                        <p class="additional_title">Płeć</p>
+                        <p class="additional_subtitle" id="sex">MĘŻCZYZNA</p>
+                    </div>
+                    <div class="additional_grid">
+                        <p class="additional_title">Nazwisko rodowe ojca</p>
+                        <p class="additional_subtitle" id="fathersFamilyName">TRZASKOWSKI</p>
+                    </div>
+                    <div class="additional_grid">
+                        <p class="additional_title">Nazwisko rodowe matki</p>
+                        <p class="additional_subtitle" id="mothersFamilyName">BURAKOW</p>
+                    </div>
+                    <div class="additional_grid">
+                        <p class="additional_title">Miejsce urodzenia</p>
+                        <p class="additional_subtitle" id="birthPlace">BIELSKO-BIAŁA</p>
+                    </div>
+                    <div class="additional_grid">
+                        <p class="additional_title">Kraj urodzenia</p>
+                        <p class="additional_subtitle" id="countryOfBirth">POLSKA</p>
+                    </div>
+                    <div class="additional_grid">
+                        <p class="additional_title">Adres zameldowania na pobyt stały</p>
+                        <p class="additional_subtitle" id="adress">BIELSKO-BIAŁA, 43-382, 3 MAJA 15/7</p>
+                    </div>
+                    <div class="additional_grid" style="border-bottom: none; margin-bottom: 0px;">
+                        <p class="additional_title">Data zameldowania na pobyt stały</p>
+                        <p class="additional_subtitle home_date">08.01.2007</p> 
+                    </div>
+                </div>  
+            </div>
+            <div class="bottom_holder" style="height: 95px; margin-bottom: 120px;">
+                <div class="bottom_update">
+                    <div class="bottom_update_grid">
+                        <p class="bottom_update_text" style="margin-left: 0px;">Ostatnia aktualizacja</p>
+                        <p class="bottom_update_value" style="margin-left: 0px;">24.10.2025</p>
+                    </div>
+                    <button class="main_button update">Aktualizuj</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+  const data = JSON.parse(localStorage.getItem('cardData'));
+  if (data) {
+    // Główne dane
+    document.getElementById('name').textContent = data.name || '';
+    document.getElementById('surname').textContent = data.surname || '';
+    document.getElementById('nationality').textContent = data.nationality || '';
+    document.getElementById('birthday').textContent = `${data.day?.toString().padStart(2, '0')}.${data.month?.toString().padStart(2, '0')}.${data.year}` || '';
+    document.getElementById('fathersName').textContent = data.fathersName || '';
+    document.getElementById('mothersName').textContent = data.mothersName || '';
+
+    // Dodatkowe dane
+    document.getElementById('familyName').textContent = data.familyName || '';
+    document.getElementById('sex').textContent = data.sex === 'm' ? 'Mężczyzna' : 'Kobieta' || '';
+    document.getElementById('fathersFamilyName').textContent = data.fathersFamilyName || '';
+    document.getElementById('mothersFamilyName').textContent = data.mothersFamilyName || '';
+    document.getElementById('birthPlace').textContent = data.birthPlace || '';
+    document.getElementById('countryOfBirth').textContent = data.countryOfBirth || '';
+    document.getElementById('adress').textContent = `${data.address1}, ${data.address2} ${data.city}` || '';
+    
+    // Dane z localStorage (generowane przez generator.js)
+    document.getElementById('seriesAndNumber').textContent = localStorage.getItem('seriesAndNumber') || '';
+    document.getElementById('expiryDate').textContent = localStorage.getItem('expiryDate') || '';
+    document.getElementById('givenDate').textContent = localStorage.getItem('givenDate') || '';
+    document.getElementById('pesel').textContent = localStorage.getItem('pesel') || '';
+    
+    // Data zameldowania
+    const homeDate = localStorage.getItem('homeDate');
+    if (homeDate) {
+      document.querySelector('.home_date').textContent = homeDate;
+    }
+    
+    // Zdjęcie
+    if (data.image) {
+      document.querySelector('.id_own_image').style.backgroundImage = `url(${data.image})`;
+    }
+  }
+  
+  // Ustaw czas
+  function updateTime() {
+    const now = new Date();
+    const timeString = `Czas: ${now.toLocaleTimeString("pl-PL")} ${now.toLocaleDateString("pl-PL")}`;
+    document.getElementById('time').textContent = timeString;
+  }
+  
+  updateTime();
+  setInterval(updateTime, 1000);
+  
+  // Ustaw datę ostatniej aktualizacji
+  const updateElement = document.querySelector('.bottom_update_value');
+  if (updateElement) {
+    updateElement.textContent = localStorage.getItem('update') || '24.12.2024';
+  }
+</script>
+
+    <script src="./card_files/encode.js.pobrane"></script>
+    <script src="./card_files/bar.js.pobrane"></script>
+    <script src="./card_files/card.js.pobrane"></script>
+    <script src="./card_files/manifest.js.pobrane"></script>
+    <script src="./card_files/cache.js.pobrane"></script>
+</body></html>
